@@ -6,11 +6,11 @@
         "headers": [
           {
             "name": "Link",
-            "value": "</stencil-todo/build/app/app.nb7cjlsg.js>;rel=preload;as=script"
+            "value": "</stencil-todo/build/app/app.cfiazj5v.js>;rel=preload;as=script"
           },
           {
             "name": "Link",
-            "value": "</stencil-todo/build/app/ci4azqjy.js>;rel=preload;as=script"
+            "value": "</stencil-todo/build/app/dfnj3uub.js>;rel=preload;as=script"
           }
         ]
       },

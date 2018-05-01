@@ -2,14 +2,14 @@
   "namespace": "App",
   "fsNamespace": "app",
   "loader": "../app.js",
-  "core": "app.cfiazj5v.js",
   "corePolyfilled": "app.nb7cjlsg.js",
+  "core": "app.cfiazj5v.js",
   "components": {
     "my-app": {
-      "$": "ci4azqjy"
+      "$": "dfnj3uub"
     },
     "my-todo": {
-      "$": "ci4azqjy"
+      "$": "dfnj3uub"
     }
   }
 }
