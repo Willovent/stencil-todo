@@ -23,77 +23,6 @@ declare global {
   interface HTMLAttributes {}
 }
 
-import '@stencil/router';
-
-import {
-  MatchResults,
-} from '@stencil/router';
-
-declare global {
-
-  namespace StencilComponents {
-    interface AppHome {
-
-    }
-  }
-
-  interface HTMLAppHomeElement extends StencilComponents.AppHome, HTMLStencilElement {}
-
-  var HTMLAppHomeElement: {
-    prototype: HTMLAppHomeElement;
-    new (): HTMLAppHomeElement;
-  };
-  interface HTMLElementTagNameMap {
-    'app-home': HTMLAppHomeElement;
-  }
-  interface ElementTagNameMap {
-    'app-home': HTMLAppHomeElement;
-  }
-  namespace JSX {
-    interface IntrinsicElements {
-      'app-home': JSXElements.AppHomeAttributes;
-    }
-  }
-  namespace JSXElements {
-    export interface AppHomeAttributes extends HTMLAttributes {
-
-    }
-  }
-}
-
-
-declare global {
-
-  namespace StencilComponents {
-    interface AppProfile {
-      'match': MatchResults;
-    }
-  }
-
-  interface HTMLAppProfileElement extends StencilComponents.AppProfile, HTMLStencilElement {}
-
-  var HTMLAppProfileElement: {
-    prototype: HTMLAppProfileElement;
-    new (): HTMLAppProfileElement;
-  };
-  interface HTMLElementTagNameMap {
-    'app-profile': HTMLAppProfileElement;
-  }
-  interface ElementTagNameMap {
-    'app-profile': HTMLAppProfileElement;
-  }
-  namespace JSX {
-    interface IntrinsicElements {
-      'app-profile': JSXElements.AppProfileAttributes;
-    }
-  }
-  namespace JSXElements {
-    export interface AppProfileAttributes extends HTMLAttributes {
-      'match'?: MatchResults;
-    }
-  }
-}
-
 
 declare global {
 
@@ -122,6 +51,39 @@ declare global {
   }
   namespace JSXElements {
     export interface MyAppAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
+    interface MyTodo {
+
+    }
+  }
+
+  interface HTMLMyTodoElement extends StencilComponents.MyTodo, HTMLStencilElement {}
+
+  var HTMLMyTodoElement: {
+    prototype: HTMLMyTodoElement;
+    new (): HTMLMyTodoElement;
+  };
+  interface HTMLElementTagNameMap {
+    'my-todo': HTMLMyTodoElement;
+  }
+  interface ElementTagNameMap {
+    'my-todo': HTMLMyTodoElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'my-todo': JSXElements.MyTodoAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface MyTodoAttributes extends HTMLAttributes {
 
     }
   }

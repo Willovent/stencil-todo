@@ -3,7 +3,7 @@ import { Component } from '@stencil/core';
 
 @Component({
   tag: 'my-app',
-  styleUrl: 'my-app.css'
+  styleUrl: 'my-app.scss'
 })
 export class MyApp {
 
@@ -11,17 +11,11 @@ export class MyApp {
     return (
       <div>
         <header>
-          <h1>Stencil App Starter</h1>
+          <h1>Stencil todo example</h1>
         </header>
 
         <main>
-          <stencil-router>
-            <stencil-route url='/' component='app-home' exact={true}>
-            </stencil-route>
-
-            <stencil-route url='/profile/:name' component='app-profile'>
-            </stencil-route>
-          </stencil-router>
+           <my-todo></my-todo>
         </main>
       </div>
     );

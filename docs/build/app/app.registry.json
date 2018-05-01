@@ -1,0 +1,15 @@
+{
+  "namespace": "App",
+  "fsNamespace": "app",
+  "loader": "../app.js",
+  "core": "app.j09njmto.js",
+  "corePolyfilled": "app.nb7cjlsg.js",
+  "components": {
+    "my-app": {
+      "$": "ci4azqjy"
+    },
+    "my-todo": {
+      "$": "ci4azqjy"
+    }
+  }
+}
