@@ -2,7 +2,7 @@
   "namespace": "App",
   "fsNamespace": "app",
   "loader": "../app.js",
-  "core": "app.j09njmto.js",
+  "core": "app.cfiazj5v.js",
   "corePolyfilled": "app.nb7cjlsg.js",
   "components": {
     "my-app": {

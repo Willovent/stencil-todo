@@ -5,8 +5,9 @@ exports.config = {
   ],
   outputTargets: [
     {
-      type: 'www',
-      dir: 'docs'
+      type:'www',
+      dir:'docs',
+      baseUrl: '/stencil-todo'
     }
   ]
 };
